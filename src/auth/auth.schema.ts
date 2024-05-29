@@ -10,6 +10,9 @@ export class User {
   @Prop({ required: true, unique: true })
   userName: string;
 
+  @Prop()
+  profilePic: string;
+
   @Prop({ required: true })
   password: string;
   _id: any;
